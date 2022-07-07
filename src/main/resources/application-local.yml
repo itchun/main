@@ -1,0 +1,7 @@
+#本地化参数配置,修改后不用提交
+server:
+  port: 8080
+
+logging:
+  pattern:
+    file:
