@@ -5,7 +5,3 @@ server:
 spring:
   thymeleaf:
     mode: HTML
-  redis:
-    host: 192.168.1.160
-    port: 6379
-    password: datahome123
