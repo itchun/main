@@ -29,13 +29,4 @@ public class 平衡二叉树 {
         }
     }
 
-    public int maxDepth(TreeNode root){
-        if(root == null) return 0;
-        int level = 1;
-        int left  = maxDepth(root.left);
-        TreeNode left = root.left;
-        TreeNode right = root.right;
-        
-    }
-
 }
