@@ -1,5 +1,7 @@
 package com.base.leetCode.entity;
 
+import lombok.Data;
+
 public class TreeNode {
 
     public int val;
@@ -9,11 +11,11 @@ public class TreeNode {
     TreeNode() {
     }
 
-    public TreeNode(int val) {
+    TreeNode(int val) {
         this.val = val;
     }
 
-    public TreeNode(int val, TreeNode left, TreeNode right) {
+    TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
